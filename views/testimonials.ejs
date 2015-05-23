@@ -1,0 +1,35 @@
+<div id="testimonials" class="sections">
+			<div class="parallax-testimonials"></div>
+			<div class="overlay"></div>
+			<div class="content">
+				<div class="container">
+					
+					<h4 class="margin"><%= appdata.testimonials.small_title %></h4>
+					<h2 class="color-white"><%= appdata.testimonials.main_title %></h2>
+					<div class="content-separator"><i class="fa <%= appdata.testimonials.icon_code %>"></i><span></span></div>
+					<div id="testimonials-slider" class="owl-carousel">
+								
+						<!-- fist-slide -->
+									
+							<% appdata.testimonials.testimonials_content.forEach(function(item){ %>
+								<div class="item">
+								<div class="user-photo"><img src="images/users/<%= item.company_logo %>" alt="" class="respimg"></div>
+								<p class="transition"> "<%= item.company_content %>" </p>
+								<div class="client-name"><%= item.company_name %><span class="client-line"><span class="circle"></span></span></div>
+					
+							</div>
+							<% }) %>
+									
+						<!-- second-slide -->
+									
+							
+							
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div class="testimonials-shadow"></div>
+		
+		</div>

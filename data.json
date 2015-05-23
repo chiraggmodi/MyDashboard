@@ -1,0 +1,348 @@
+{
+  "main_menu": [
+    {
+      "name": "About",
+      "url": "#about"
+    },
+    {
+      "name": "Personal Details",
+      "url": "#personal"
+    },
+    {
+      "name": "My Awards",
+      "url": "#my_awards"
+    },
+    {
+      "name": "Resume",
+      "url": "#resume"
+    },
+    {
+      "name": "Services",
+      "url": "#services"
+    },
+    {
+      "name": "Contact Us",
+      "url": "#contacts"
+    }
+  ],
+  "logo": "logo",
+  "welcome": {
+    "main_content": "Hi i am Chirag Modi",
+    "sub_content": "Web designer & Web Developer from Ahmedabad, India"
+  },
+  "about_page": {
+    "title": "about",
+    "about_sub": "A small introduction about my self",
+    "about_images": "photo",
+    "about_name": "Chirag Modi",
+    "about_service": "Webdesigner & Web Developer from Ahmedabad, India",
+    "about_content": "My name is Chirag Modi and I'm a Web Designer located in Ahmedabad, Gujarat, India. I have done certified course AARTISSAN Academy in year 2011. Then I join ATLAS INFOTECH company as Web Designer in year 2011. I have done B.Com as my Bachelor degree. ",
+    "about_button": "view my Personal Details"
+  },
+  "skill": [
+    {
+      "title": "PHOTOSHOP",
+      "content": "Make Layouts, Banners",
+      "persentage": "70%"
+    },
+    {
+      "title": "HTML5",
+      "content": "Have Expert Knowledge of HTML",
+      "persentage": "85%"
+    },
+    {
+      "title": "CSS3",
+      "content": "Have Good knowledge of HTML5 and CSS3",
+      "persentage": "93%"
+    },
+    {
+      "title": "illustrator",
+      "content": "Have working knowledge of Illustrator",
+      "persentage": "48%"
+    },
+    {
+      "title": "WordPress",
+      "content": "Can Make and Edit Themes Template",
+      "persentage": "65%"
+    },
+    {
+      "title": "Joomla",
+      "content": "Can edit Ready themes",
+      "persentage": "30%"
+    }
+  ],
+  "experience": {
+    "about_me": "ABOUT ME",
+    "title": "Total Experience",
+    "experience_time": [
+      {
+        "title": "Years",
+        "time": "3"
+      },
+      {
+        "title": "Months",
+        "time": "7"
+      },
+      {
+        "title": "days",
+        "time": "27"
+      }
+    ]
+  },
+  "personal_details": {
+    "small_title": "Who I am",
+    "title": "Personal Detail",
+    "basic_info": [
+      {
+        "icon_code": "fa-user",
+        "title": "Name",
+        "text": "Chira Modi"
+      },
+      {
+        "icon_code": "fa-map-marker",
+        "title": "Address",
+        "text": "Girdharnagar, Shahibaug"
+      },
+      {
+        "icon_code": "fa-calendar",
+        "title": "Birthday",
+        "text": "April 14, 1991"
+      },
+      {
+        "icon_code": "fa-mobile",
+        "title": "Phone",
+        "text": "+ 91 9904353010"
+      },
+      {
+        "icon_code": "fa-envelope",
+        "title": "Email",
+        "text": "info@chiragmodi.com"
+      },
+      {
+        "icon_code": "fa-external-link",
+        "title": "Website",
+        "text": "<a href=\"http://www.chiragmodi.com\">www.chiragmodi.com</a>"
+      }
+    ],
+    "tool_i_use": [
+      {
+        "tools": "Photoshop"
+      },
+      {
+        "tools": "jQuery"
+      },
+      {
+        "tools": "Wordpress"
+      },
+      {
+        "tools": "Joomla"
+      },
+      {
+        "tools": "Bootstrap"
+      },
+      {
+        "tools": "dreamweaver"
+      },
+      {
+        "tools": "Sublime"
+      }
+    ],
+    "what_i_do": " My Responsibility are to create Layout as per client requirement and the convert layout in HTML/CSS. I am also maintaining websites which are developed in WORDPRESS and JOOMLA.",
+    "my_awards": [
+      {
+        "date": "2011",
+        "award_title": "• Aartissan academy of animation & multimedia",
+        "award_content": "I have got certificate from Aartissan academy on successful completion of my program of Web Designing in year 2011. At Aartissan I have study Photoshop, Flash Animation & Basic Scripting, DreamWeaver, HTML/CSS."
+      },
+      {
+        "date": "2012",
+        "award_title": "• Versatile Employee",
+        "award_content": " I got Certificate from Atlas Infotech as a Versatile Employee of 2013. "
+      },
+      {
+        "date": "2014",
+        "award_title": "• Oracle Certified Professional, Java SE 6 Programmer ",
+        "award_content": "I Certified as Oracle Professional from Oracle as a Java SE 6 Programmer in 2014. <img src=\"/images/OCP_JavaSE6Programmer_clr.gif\">"
+      }
+    ]
+  },
+  "resume": {
+    "small_title": "Work Experience",
+    "main_title": "resume",
+    "resume_icon": "fa-briefcase",
+    "resume_content": [
+      {
+        "resume_date": "2011-Present",
+        "resume_type": "work",
+        "company": "Atlas Softweb Pvt. LTD.",
+        "designation": "Web Designer",
+        "responsibility": "I am working in Atlas Softweb Pvt. LTD. as Web Designer from Nov. 2011. My Basic responsibility is to convert PSD/AI to HTML/CSS. "
+      },
+      {
+        "resume_date": "2010-2012",
+        "resume_type": "Education",
+        "company": "Aartissan academy",
+        "designation": "Web Design Traning",
+        "responsibility": "I have learned Web Designing From Aartissan academy. Here I study Photoshop, Flash Animation & Basic Scripting, DreamWeaver, HTML/CSS. "
+      },
+      {
+        "resume_date": "2009-2012",
+        "resume_type": "Education",
+        "company": "Gujrat University",
+        "designation": "Bachelor Degree",
+        "responsibility": "I have completed my Bachelor Degree from gujarat university in year 2012. I have done B.com from Gujarat University in year 2012."
+      },
+      {
+        "resume_date": "2007-2009",
+        "resume_type": "Education",
+        "company": "Rajasthan Hindi High School",
+        "designation": "High School",
+        "responsibility": "I have study my High School from Rajasthan Hindi High School located at Shahibaug, Ahmedabad. I have passed High School From Gujarat Borad. "
+      }
+    ],
+    "downloads_resume": {
+      "title": "Download resume",
+      "url": "Java-Developer.pdf"
+    },
+    "downloads_business_card": {
+      "title": "Download V-Card",
+      "url": "contacts.vcf"
+    },
+    "downloads_certificate": {
+      "title": "View My Java Certificate",
+      "url": "eCertificate.pdf"
+    }
+  },
+  "services": {
+    "small_title": "What i Know ",
+    "main_title": "Services",
+    "icon_code": "fa-cogs",
+    "services_list": [
+      {
+        "icon_code": "fa-laptop",
+        "title": "Design",
+        "content": "I can make Layout Design in PSD using photoshop. I have good knowledge of phoneshop.",
+        "knowledge": "WHAT i Know",
+        "what_i_know": [
+          {
+            "technology": "Concept"
+          },
+          {
+            "technology": "Design"
+          },
+          {
+            "technology": "Banner"
+          },
+          {
+            "technology": "Layout"
+          }
+        ]
+      },
+      {
+        "icon_code": "fa-rocket",
+        "title": "HTML/CSS",
+        "content": "I have expert knowledge of HTML/CSS. I can convert Layout form PSD or Illustrator in to HTML mokup.",
+        "knowledge": "WHAT i OFFER",
+        "what_i_know": [
+          {
+            "technology": "HTML"
+          },
+          {
+            "technology": "CSS"
+          },
+          {
+            "technology": "jQuery"
+          },
+          {
+            "technology": "Landing Page"
+          }
+        ]
+      },
+      {
+        "icon_code": "fa-android",
+        "title": "Developement",
+        "content": "I have good knowledge of development too. ",
+        "knowledge": "WHAT i OFFER",
+        "what_i_know": [
+          {
+            "technology": "WordPress"
+          },
+          {
+            "technology": "Joomla"
+          }
+        ]
+      },
+      {
+        "icon_code": "fa-camera",
+        "title": "HTML5/CSS3",
+        "content": "I have good knowledge of HTML5/CSS3. I can make Responsive design(supported in all device and platform.)",
+        "knowledge": "WHAT i OFFER",
+        "what_i_know": [
+          {
+            "technology": "HTML5"
+          },
+          {
+            "technology": "CSS3"
+          },
+          {
+            "technology": "Responsive Design"
+          },
+          {
+            "technology": "Research"
+          }
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "small_title": "Company Details",
+    "main_title": "Company Where i worked",
+    "icon_code": "fa-comment-o",
+    "testimonials_content": [
+      {
+        "company_logo": "atlas.png",
+        "company_content": " \"I am currently working in Atlas InfoTech as Web Designer. I am Working from past 2.5 years from same company.\" ",
+        "company_name": "Atlas Softweb Pvt. LTD."
+      }
+    ]
+  },
+  "contact" : {
+    "small_title" : "Get in touch",
+    "main_title" : "Contacts",
+    "contact_info" : "Contact Info",
+    "form_content" : "If you want to know any more details about me. Get a quick contact from below contact form :)",
+  "contact_details" : [
+    {
+      "icon_code" : "fa-mobile",
+      "content" : "+91 990 435 30310"
+    },
+    {
+      "icon_code" : "fa-envelope-o",
+      "content" : "info@chiragmodi.com"
+    },
+    {
+      "icon_code" : "fa-home",
+      "content" : "Ahmedabad, Gujarat, India"
+    }
+  ]
+  },
+  "socialIcons" : [
+    {
+      "url" : "https://www.facebook.com/chiraggmodi",
+      "icon_code" : "fa-facebook"
+    },
+    {
+      "url" : "https://twitter.com/modichirag14",
+      "icon_code" : "fa-twitter"
+    },
+    {
+      "url" : "http://in.linkedin.com/in/chiraggmodi",
+      "icon_code" : "fa-linkedin"
+    },
+    {
+      "url" : "https://plus.google.com/+ChiragModichiragmodi?rel=author",
+      "icon_code" : "fa-google-plus"
+    }
+  ],
+  "copyright" : "Chirag Modi ©2015  All rights reserved."
+}

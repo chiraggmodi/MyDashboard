@@ -1,0 +1,63 @@
+<div id="contacts" class="sections">
+				
+				<div class="content">
+		
+					<div class="container animaper anim">
+					
+						<h4 class="margin"><%= appdata.contact.small_title %></h4>
+						<h2 class="color-white"><%= appdata.contact.main_title %></h2>
+						<div class="grid-2">						
+							<div class="contact-details">
+								
+								<h3><%= appdata.contact.contact_info %></h3>
+								<ul>
+									<% appdata.contact.contact_details.forEach(function(item){ %> 
+										<li><i class="fa <%= item.icon_code %> "></i><span><%= item.content %></span></li>
+			
+									<% }) %>
+								</ul>
+				
+							</div>	
+							
+						</div>
+												
+						<div class="grid-4">
+							
+							<div class="contact-form clear">
+							
+								<p><%= appdata.contact.form_content %></p>
+								<div class="clear"></div>
+								<fieldset id="contact_form">
+																			
+									<label for="name">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</label>
+									
+									<label for="email">
+										<input type="text" name="email" class="right" id="email" placeholder="Email" />
+									</label>
+									
+									<div class="clear"></div>
+									
+									<label for="message">
+										<textarea name="message"  id="message" placeholder="Message"></textarea>
+									</label>
+												
+									<div class="clear"></div>
+																		
+									<label>
+										<button class="submit_btn transition" id="submit_btn"><i class="fa fa-envelope-o fa-2x"></i></button>
+									</label>
+										
+									<div id="result"></div>
+									
+								</fieldset>
+									
+							</div>
+							
+						</div>
+			
+					</div>
+				</div>
+		
+			</div>

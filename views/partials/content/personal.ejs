@@ -1,0 +1,87 @@
+<div id="personal"  class="sections">	
+			<div class="background-color">	
+				<div class="content">
+					<div class="container animaper anim">
+					
+						<h4 class="margin color-white">WHO I AM</h4>
+						<h2 class="color-white">Personal Details</h2>
+						<div class="content">
+					<div class="grid-half right">
+						<div class="box tools_i_use">
+							<div class="title">
+								<div class="icon"><i class="fa fa-wrench"></i></div>
+								<div class="text">TOOLS I USE</div>
+								<div class="clear"></div>
+							</div>
+							<div class="tools">
+							<% appdata.personal_details.tool_i_use.forEach(function(item){ %> 
+								<a class="tool btn"><%= item.tools %></a>
+							<% }); %>
+								
+							</div>
+							<div class="box what_i_do">
+							<div class="title">
+								<div class="icon"><i class="fa fa-certificate"></i></div>
+								<div class="text">WHAT I DO</div>
+								<div class="clear"></div>
+							</div>
+							<div class="text">
+								<%= appdata.personal_details.what_i_do %>
+							</div>
+						</div>
+						</div>
+					</div>
+									
+					<div class="grid-half right">
+							<div class="personal_details">
+
+								<% appdata.personal_details.basic_info.forEach(function(item) { %> 
+									<div class="item title">
+										<div class="icon"><i class="fa <%= item.icon_code %>"></i><span><%= item.title %></span></div>
+										<div class="text"><%- item.text %></div>
+										<div class="clear"></div>
+									</div>
+								<% }); %>
+							</div>
+							
+					</div>
+						<div class="box awards visible animated fadeInUp" id="my_awards">
+						<div class="title">
+							<div class="icon"><i class="fa fa-trophy"></i></div>
+							<div class="text">MY AWARDS</div>
+							<div class="clear"></div>
+						</div>
+						<div class="awards">
+							<% appdata.personal_details.my_awards.forEach(function(item){ %>
+								<div class="award personal-info">
+								<div class="date"><%= item.date %></div>
+								<div class="body">
+									<div class="award_title"><%= item.award_title %></div>
+									<%- item.award_content %>
+								</div>
+								<div class="clear"></div>
+								</div>
+							<% }); %>
+						</div>
+					</div>
+						</div>
+		
+						
+				
+					</div>	
+					
+				</div>
+			</div>	
+			<div class="googleAdsense">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-5998487916483560"
+     data-ad-slot="5455985333"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+	
+		</div>

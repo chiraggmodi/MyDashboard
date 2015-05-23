@@ -1,0 +1,10 @@
+<a href="#intro" class="scroll-link logo"><img src="/images/<%= appdata.logo %>.png" alt=""></a>
+<div class="desktop-screen-navigation" id="nav"> 
+		<ul>
+		<% appdata.main_menu.forEach(function(item) { %>
+			<li><a href="<%= item.url %>" class="scroll-link transition"><%= item.name %></a></li>
+		<% }); %>
+			
+		</ul>
+</div>
+<a class="nav-top scroll-link" href="#intro"><i class="fa fa-angle-up fa-2x"></i><span class="transition2"></span></a>

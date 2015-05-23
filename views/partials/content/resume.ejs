@@ -1,0 +1,61 @@
+<div id="resume"  class="sections">	
+	<div class="background-color">	
+		<div class="content">
+			<div class="container animaper anim">
+			
+				<h4 class="margin color-white"><%= appdata.resume.small_title %></h4>
+				<h2 class="color-white"><%= appdata.resume.main_title %></h2>
+				<div class="content-separator"><i class="fa <%= appdata.resume.resume_icon %>"></i><span></span></div>
+
+				<div class="grid-full">
+					<div class="resume-line"></div>
+					
+				
+					 <!-- 1 item-->
+					 
+					<% appdata.resume.resume_content.forEach(function(item){ %> 
+						<div class="grid-full place-holder">
+							<div class="grid-1">
+							
+								<div class="resume-date">
+									<h4><%= item.resume_date %></h4>
+									<span><%= item.resume_type %></span>
+								</div>
+							
+							</div>
+							
+							<div class="grid-5 right">
+							
+								<div class="resume-info">
+								
+									<h3><%= item.company %></h3>
+									<h4><%= item.designation %></h4>
+									<p> <%= item.responsibility %> </p>
+
+								</div>
+							
+							</div>
+						
+						</div>
+					<% }); %>
+						
+					 <!-- 2 item-->
+								
+					
+					<a href="/images/<%= appdata.resume.downloads_resume.url %>" target="_blank" class="button transition"><%= appdata.resume.downloads_resume.title %></a>
+					<div class="resume-line2"></div>
+					<a href="/images/<%= appdata.resume.downloads_business_card.url %>" target="_blank" class="button transition businessCard"><%= appdata.resume.downloads_business_card.title %></a>
+					<div class="resume-line3"></div>
+					<a href="/images/<%= appdata.resume.downloads_certificate.url %>" target="_blank" class="button transition businessCard"><%= appdata.resume.downloads_business_card.title %></a>
+				
+				</div>
+		
+			</div>	
+			
+		</div>
+
+	</div>
+
+	<div class="resumeshadow"></div>
+	
+</div>

@@ -1,0 +1,21 @@
+<div class="nav-holder">
+				
+	<div class="nav-button transition">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+			
+	<div class="nav-border fade"></div>
+	<div class="link-holder fade">
+
+	
+		<ul>
+		<% appdata.main_menu.forEach(function(item){ %>
+			<li class="scroll-link transition"><a href="<%= item.url %>" class="scroll-link transition"><%= item.name %></a></li>
+		<% }); %>
+			
+		</ul>
+	</div>
+
+</div>

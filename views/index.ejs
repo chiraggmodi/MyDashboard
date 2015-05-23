@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<% include partials/template/head.ejs %>
+<body onLoad="initialize()">
+
+<!--=============== main ===============-->
+<div id="main">
+
+	<!--=============== intro ===============-->
+	
+	<div id="intro">
+	
+	<!--=============== navigation ===============-->	
+	<!--=============== navigation end ===============-->
+		<% include partials/content/wellcomeMenu.ejs %>
+				
+		<!--=============== text-ticker-holder ===============-->	
+			<% include partials/content/wellcomeRight.ejs %>
+		<!--=============== text-ticker-holder end===============-->			
+			
+	</div><!--=============== intro end ===============-->	
+			
+	<!--=============== wrapper ===============-->
+		
+	<div id="wrapper">
+	
+		<!--=============== left-sidebar ===============-->
+		
+		<div class="left-sidebar">
+			<% include partials/content/mainMenu.ejs %>
+		</div><!--=============== left-sidebar end ===============-->
+		
+		<!--=============== content-holder ===============-->
+		
+		<div class="content-holder">
+		
+			<!--=============== section about ===============-->
+				<% include partials/content/about.ejs %>
+			<!--=============== section about end ===============-->
+			
+			
+		<!--=============== section facts ===============-->
+			<% include partials/content/experience.ejs %>
+		<!--=============== section facts end ===============-->
+		
+		
+		<!--=============== section personal ===============-->
+		
+		<% include partials/content/personal.ejs %>
+		<!--=============== section Personal end===============-->
+		
+		
+		
+	<!--=============== section resume ===============-->
+		<% include partials/content/resume.ejs %>
+	<!--=============== section resume end===============-->
+		
+		
+	
+		<div class="clear"></div>
+
+		<!--=============== section services===============-->	
+		<% include partials/content/services.ejs %>
+		<!--=============== section services  end===============-->	
+		
+		<!--=============== section order ===============-->
+			
+		<div id="order" class="sections">
+		
+			<div class="content">
+				<a href="#contact_form" class="button transition scroll-link">Get in touch</a>
+			</div>
+			
+			<div class="ordershadow"></div>
+		
+		</div>	<!--=============== section order end ===============-->
+
+		<div class="clear"></div>
+		
+		<!--=============== section testimonials ===============-->
+		
+		<% include partials/content/testimonials.ejs %>
+
+		<!--=============== section map ===============-->
+		
+		<div id="mapbox" class="sections">
+		
+			<div id="map_canvas"></div>
+					
+		</div><!--=============== section map end===============-->
+		
+		<!--=============== section contacts ===============-->
+		<% include partials/content/contact.ejs %>
+		<!--=============== contacts end ===============-->
+		
+			<!--=============== section footer ===============-->	
+		<% include partials/template/footer.ejs %>
+			
+			
+			</div><!--=============== section footer end ===============-->	
+		
+		</div><!--=============== content-holder end ===============-->	
+		
+	</div><!--=============== wrapper end ===============-->	
+	
+</div><!--=============== main end ===============-->	
+ 
+<!--=============== javascript ===============-->
+<% include partials/template/jsdefault.ejs %>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<div id="about" class="sections">
+			
+				<div class="container animaper anim">
+				
+					<h2><%= appdata.about_page.title %></h2>
+					<h4 class="margin"><%= appdata.about_page.about_sub %></h4>
+
+					
+					<div class="grid-half right">
+					
+						<div class="photo-holder">
+							<img src="/images/<%= appdata.about_page.about_images %>.jpg" alt="" class="respimg">
+						</div>
+					
+					</div>
+									
+					<div class="grid-half right">
+					
+						<h3><%= appdata.about_page.about_name %></h3>
+						<h3 class="margin"><%= appdata.about_page.about_service %></h3>
+						<p><%= appdata.about_page.about_content %></p>
+						
+						
+						<div class="clear"></div>
+						<a href="<%= appdata.main_menu[1].url %>" class="button scroll-link transition"><%= appdata.about_page.about_button %></a>
+						
+<div class="googleAdsense">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5998487916483560"
+     data-ad-slot="8178571732"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+	</div>
+
+	<div class="clear"></div>
+
+	<!--skills-->
+
+	<div class="piechart-holder">
+				
+		
+		
+	<% appdata.skill.forEach(function(item){ %>
+		<div class="piechart grid-2">
+			 <span class="chart skilBg" data-percent="<%= item.persentage %>">
+				<span class="percent"></span>
+			</span>
+			
+			<h4><%= item.title %></h4>
+			<p><%= item.content %></p>				
+		
+		</div>
+	<% }); %>		
+
+		
+	</div>
+
+	</div>
+
+	<div class="show-skills-holder">
+	<span class="decor-fix"></span>
+	<div class="show-skills"><i class="fa fa-angle-up fa-2x transition"></i><span>show skills</span></div>
+	</div>
+
+	</div>

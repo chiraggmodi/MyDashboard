@@ -1,0 +1,241 @@
+
+/*
+===============================================
+			6. About Page
+===============================================
+*/
+
+
+.personal_details {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.title:after,
+.content > div .box_title:after{
+	top:1px;
+	width: 155px;
+}
+
+.title .icon,
+.content > div .box_title .icon{
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: -1px;
+	color:#ffffff;
+	width: 20px;
+	text-align: center;
+}
+
+.title .text,
+.content > div .box_title .text{
+	display: inline-block;
+	float: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 10px; color:#fff;
+}
+
+.box.testimonials .title:after{
+	width: 200px;
+}
+
+
+.title:after {
+    background: none repeat scroll 0 0 #008EC3;
+}
+.tools_i_use .title  .text{margin-left:20px;}
+.title {
+    border-bottom: 1px solid #B1B1B1;
+    display: block;
+   
+    width: 100%;
+}
+.personal_details .title {
+    margin-bottom: 0;
+}
+.title:after {
+    content: " ";
+    display: block;
+    height: 1px;
+    left: 0;
+    position: relative;
+    width: 125px;
+}
+.personal_details{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.personal_details .item{
+	display: block;
+	width: 60%;
+	margin-bottom: 15px !important;
+}
+
+.personal_details .title{
+	margin-bottom: 0;
+}
+
+.personal_details .title .icon{
+	background: transparent !important;
+	padding: 5px;
+	width:41%;
+	text-align: left;
+}
+
+.personal_details .title .icon i{
+	margin-right: 10px;
+	width: 20px;
+	text-align: center;
+}
+
+.personal_details .title .icon span{
+	font-size: 17px;
+}
+
+.personal_details .title .text{
+	color:#333333 !important;
+	font-size: 14px;
+}
+
+.personal_details .title:after{
+	width: 120px;
+}
+
+.box.pictures{
+	overflow: hidden;
+}
+
+.box.what_i_do .title:after{
+	width: 165px;
+}
+
+.box.my_services .title:after{
+	width: 184px;
+}
+
+.box.my_services{
+	margin-bottom: 26px;
+}
+
+.accordion{
+	display: inline-block;
+}
+
+.box.my_services .accordion{
+	display: block;
+	width: 100%;
+}
+
+.accordion .item{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.accordion .item .item_title{
+	display: block;
+	width: 99.3%;
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid #dedede;
+}
+
+.accordion .item .item_title .item_btn{
+	display: inline-block;
+	float: left;
+	padding: 11px;
+	padding-left: 16px;
+	padding-right: 16px;
+	width: 100%;
+	cursor: pointer;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.tools_i_use .title:after{
+	width:172px;
+}
+.tools {
+    margin-top:20px;
+}
+.tools_i_use .tools .tool:hover {
+    background: none repeat scroll 0 0 #00A7E6; transition: background 0.3s ease-in-out 0s;
+}
+.tools_i_use .tools .tool{
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 7px;
+	color: #ffffff;
+	cursor: pointer;width: auto;background:#008EC3; transition: background 0.3s ease-in-out 0s;
+}
+.btn {
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px;
+    transition: background 0.3s ease-in-out 0s;
+}
+.tools_i_use {
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+    width: 60%; margin:0;
+}
+.what_i_do{margin-top:20px;}
+.text{text-align:justify;}
+.award .date{background: none repeat scroll 0 0 #008EC3; padding: 10px;text-align:left;}
+.tools_i_use .title .icon, .what_i_do .title .icon, .awards .title .icon{color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    width:50px;
+    background: none repeat scroll 0 0 #008EC3;
+}
+.awards{
+	width: 100%;margin-top: 16px;
+	margin-bottom: 0;
+}
+
+.awards .title:after{
+	width:176px;
+}
+
+.awards .award{
+	margin-bottom:35px;
+	width: 100%;
+}
+
+.awards .award .date{
+	padding: 10px;
+	color:#ffffff;
+	font-size:15px;
+	font-family: 'Lato', sans-serif;
+}
+
+.awards .award .body{
+	background: rgba(0, 0, 0, 0.05);
+	padding: 10px;
+	line-height: 18px;
+}
+
+.awards .award .body .award_title{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #777777;
+	font-size:15px;color:#000;
+	font-weight: 600;
+	padding-bottom: 5px;
+}

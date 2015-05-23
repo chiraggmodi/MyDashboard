@@ -1,0 +1,58 @@
+<div id="services" class="sections">
+		
+			<div class="content">
+			
+				<div class="container animaper anim">
+				
+					<h4 class="margin"><%= appdata.services.small_title %></h4>	
+					<h2><%= appdata.services.main_title %></h2>
+					<div class="content-separator"><i class="fa fa-cogs"></i><span></span></div>
+		
+					<div id="services-carusel" class="owl-carousel">
+							
+						<!-- 1 item -->
+								
+						<% appdata.services.services_list.forEach(function(item){ %> 
+							<div class="item">	
+						
+							<div class="services-box">
+							
+								<div class="icon-holder">
+									<i class="fa <%= item.icon_code %>"></i>
+								</div>
+								
+								<div class="services-box-info">
+								
+									<span class="services-decor"></span>
+									<h4><%= item.title %></h4>
+									<p><%= item.content %></p>
+									<h5><%= item.knowledge %></h5>
+									<ul>
+										<% item.what_i_know.forEach(function(items){ %> 
+											<li><%= items.technology %></li>
+										<% }); %>
+									</ul>
+									<div class="clear"></div>
+									<div class="price"><%= appdata.experience.experience_time[0].time %>.<%= appdata.experience.experience_time[1].time %> years</div>
+								</div>
+								
+							</div>	
+							
+						</div>
+						<% }); %>
+								
+						<!-- 2 item -->
+								
+						
+								
+						
+				
+						
+			
+					</div>		
+
+				</div>	
+				
+			</div>
+		
+		</div>

@@ -1,0 +1,43 @@
+<div id="facts"  class="sections">
+		<div class="parallax-facts"></div>
+			<div class="overlay"></div>
+			
+			<div class="content">
+			
+				<div class="container">
+					<h4 class="margin"><%= appdata.experience.about_me %> </h4>
+					<h2 class="color-white"><%= appdata.experience.title %></h2>
+	
+					<ul>
+					
+						<!-- fact 1-->
+						
+						<% appdata.experience.experience_time.forEach(function(item){  %>  
+							<li class="transition scale-small animaper"> 
+							<div class="conter-decor">
+								<span class="rotade rot-top-left"></span>
+								<span class="rotade rot-top-right"></span>
+								<span class="rotade rot-bottom-left"></span>
+								<span class="rotade rot-bottom-right"></span> 
+							</div>
+							<div class="milestone-counter">
+								
+								<div class="stats animaper">
+									<div class="num" data-content="<%= item.time %>" data-num="<%= item.time %>"><%= item.time %></div>
+								</div>
+									
+							</div>
+							
+							<h6><span></span><%= item.title %></h6>	
+							 
+							</li>
+						<% }); %>
+						
+						
+					</ul> 
+																			   
+				</div>
+				
+			</div>	
+				
+		</div>

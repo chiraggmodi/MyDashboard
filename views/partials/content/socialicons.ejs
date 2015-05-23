@@ -1,0 +1,10 @@
+<div class="social-list">
+				
+	<ul>
+	<% appdata.socialIcons.forEach(function(item){ %> 
+		<li><a href="<%= item.url %>"  target="_blank" class="transition"><i class="fa <%= item.icon_code %>"></i></a></li>
+	<% }); %>
+		
+	</ul>
+				
+</div>
