@@ -10,13 +10,15 @@
 					<div id="testimonials-slider" class="owl-carousel">
 								
 						<!-- fist-slide -->
-									
-							<div class="item">
-								<div class="user-photo"><img src="images/users/atlas.png" alt="" class="respimg"></div>
-								<p class="transition"> "I am currently working in Atlas InfoTech as Web Designer. I am Working from past 2.5 years from same company." </p>
-								<div class="client-name">Atlas InfoTech<span class="client-line"><span class="circle"></span></span></div>
+						<% appdata.testimonials.testimonials_content.forEach(function(item){ %>
+						<div class="item">
+								<div class="user-photo"><img src="images/users/<%= item.company_logo %>" alt="" class="respimg"></div>
+								<p class="transition"><%= item.company_content %></p>
+								<div class="client-name"><%= item.company_name %><span class="client-line"><span class="circle"></span></span></div>
 					
 							</div>
+						<% }); %>			
+							
 									
 						<!-- second-slide -->
 									
