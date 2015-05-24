@@ -293,7 +293,7 @@ $(document).ready(function(){
 			}
 			if(proceed){
 				post_data={'userName':user_name,'userEmail':user_email,'userMessage':user_message};
-				$.post('php/contact_me.php',
+				$.post('../php/contact_me.php',
 				post_data,
 				function(data){
 					$("#result").hide().html('<div class="success">'+data+'</div>').fadeIn(700);
