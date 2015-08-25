@@ -27,32 +27,36 @@
 							
 								<p><%= appdata.contact.form_content %></p>
 								<div class="clear"></div>
+								<form id="emf-form" target="_self" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/y21S84PL6JdogpXKe">
 								<fieldset id="contact_form">
 																			
 									<label for="name">
-										<input type="text" name="name" id="name" placeholder="Name" />
+										<input id="element_0" name="element_0" type="text" class="validate[required]" placeholder="Name" />
 									</label>
 									
 									<label for="email">
-										<input type="text" name="email" class="right" id="email" placeholder="Email" />
+										<input type="text" id="element_1" name="element_1" class="validate[required,custom[email]] right" placeholder="Email" />
 									</label>
 									
 									<div class="clear"></div>
 									
 									<label for="message">
-										<textarea name="message"  id="message" placeholder="Message"></textarea>
+										<textarea id="element_2" name="element_2" class="validate[required] " placeholder="Message"></textarea>
 									</label>
 												
 									<div class="clear"></div>
 																		
 									<label>
-										<button class="submit_btn transition" id="submit_btn"><i class="fa fa-envelope-o fa-2x"></i></button>
+										<button class="submit_btn transition" type="submit" id="submit_btn"><i class="fa fa-envelope-o fa-2x"></i></button>
+										<input name="element_counts" value="3" type="hidden" />
+						                <input name="embed" value="forms" type="hidden" />
+						                
 									</label>
 										
 									<div id="result"></div>
 									
 								</fieldset>
-									
+								</form>
 							</div>
 							
 						</div>
